@@ -5,6 +5,7 @@ public class PalindromeTest {
 
     @Test
     void optionalTest (){
+
         Palindrome palindrome = new Palindrome();
         Assertions.assertTrue(palindrome.isPalindrome("A roza upala na Lapu Azora"));
         Assertions.assertTrue(palindrome.isPalindrome("abba"));
