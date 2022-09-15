@@ -27,7 +27,7 @@ public class SpoonTest {
                 .body(pojo)
                 .expect()
                 .statusCode(201)
-                .when().post("mealplanner/your-users-name292/shopping-list/items")
+                .when().post("/mealplanner/your-users-name292/shopping-list/items")
                 .asPrettyString();
     }
 
