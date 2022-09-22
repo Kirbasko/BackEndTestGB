@@ -6,6 +6,7 @@ public class Palindrome {
         return IntStream.range(0, text.length() / 2)
                 .noneMatch(i -> text.charAt(i) != text.charAt(text.length() - i - 1));
     }
+
     // Внизу более простой метод и он не работает со строками, где много пробелов
     /*
         public boolean isPalindrome (String string){
